@@ -1,50 +1,30 @@
-# React + TypeScript + Vite
+# Proyecto de Frontend - Universidad Autónoma de Manizales
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto desarrollado como parte del curso de Frontend en la Universidad Autónoma de Manizales.
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este proyecto fue creado por **Luis Canón** como parte de los estudios en el curso de Frontend. El objetivo del proyecto es aprender y aplicar tecnologías modernas de desarrollo web frontend, con un enfoque en **React** y **TypeScript**.
 
-## Expanding the ESLint configuration
+**Fecha**: 12 de agosto de 2024
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Autor
 
-- Configure the top-level `parserOptions` property like this:
+- **Luis Canón**
+- Estudiante de la Universidad Autónoma de Manizales
+- Curso: **Frontend Development**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Tecnologías Utilizadas
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **React**: Librería de JavaScript para construir interfaces de usuario.
+- **TypeScript**: Superconjunto de JavaScript que añade tipado estático y otras características avanzadas.
+- **HTML5**: Para la estructura del contenido web.
+- **CSS3**: Para la estilización y presentación visual.
+- **JavaScript/TypeScript**: Para la interactividad y lógica de la aplicación.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Objetivos del Proyecto
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **Entender los fundamentos de React y TypeScript.**
+- **Aprender a construir interfaces de usuario dinámicas y tipadas.**
+- **Aplicar buenas prácticas en el desarrollo web utilizando un stack moderno.**
+- **Integrar diferentes tecnologías para crear una aplicación web completa.**
