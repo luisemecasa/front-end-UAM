@@ -1,0 +1,26 @@
+.principal{
+    width: 64%;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background: #2e5adf;
+}
+
+.main .aside{
+    width: 36%;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background: #2e5adf;
+}
+
+.main .principal{
+    width: 64%;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background: #2e5adf;
+}
