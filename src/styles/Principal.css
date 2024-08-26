@@ -1,26 +1,25 @@
-.principal{
-    width: 64%;
-    display: flex;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    background: #2e5adf;
+.main{
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  min-height: 80vh; 
 }
 
 .main .aside{
-    width: 36%;
-    display: flex;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    background: #2e5adf;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 25%;
+  background: #2e5adf;
 }
 
 .main .principal{
-    width: 64%;
-    display: flex;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    background: #2e5adf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64%;
+  border-radius: 10px;
+  background: #2e5adf;
 }

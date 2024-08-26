@@ -1,17 +1,14 @@
-import { useState, useEffect } from 'react'
-import './App.css'
-import Header from './components/Header'
 import Footer from './components/Footer'
-import Principal from './components/Principal'
-
+import Header from './components/Header'
+import {Principal} from './components/Principal'
 
 function App() {
-  return(
-    <>
-      <Header />
-      <Principal />
-      <Footer />
-    </>
+  return (
+   <>
+    <Header />
+    <Principal />
+    <Footer />
+   </>
   )
 }
 
