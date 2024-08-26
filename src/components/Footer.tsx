@@ -1,10 +1,10 @@
+import "../styles/Footer.css"
 
-import "../styles/Footer.css";
 const Footer = () => {
   return (
     <footer className='footer'>
-    this is the footer
-  </footer>
+      <p>For more information, visit the official Boeing website.</p>
+    </footer>
   )
 }
 

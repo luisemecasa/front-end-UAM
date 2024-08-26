@@ -1,12 +1,34 @@
-.header{
-  width: 98%;
-  max-width: 1200px;
-  margin: 0 auto;
-  height: 50px;
-  background: #2e5adf;
-  border-radius: 10px;
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+.header {
+    width: 100%;
+    background-color: #0033a0; /* Boeing blue */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 5px solid #2e5adf; /* Lighter blue for accent */
+  }
+  
+  .navbar {
+    margin-top: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }

@@ -3,10 +3,12 @@
   max-width: 1200px;
   margin: 0 auto;
   height: 50px;
-  background: #2e5adf;
+  background: #0033a0; /* Boeing blue */
+  color: white;
   border-radius: 10px;
   margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 14px;
 }

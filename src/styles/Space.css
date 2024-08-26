@@ -1,0 +1,43 @@
+.space {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .space h2 {
+    color: #0033a0; /* Boeing blue */
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .space-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .space-image {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  
+  .space-info {
+    max-width: 800px;
+  }
+  
+  .space-info h3 {
+    color: #0033a0;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .space-info p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+  }
